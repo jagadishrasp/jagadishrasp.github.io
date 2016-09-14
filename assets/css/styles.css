@@ -95,7 +95,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default ul.navbar-nav li a:hover:after {
-  background: #ffffff;
+  background: #008000;
 }
 header .navbar-default ul.navbar-nav li a.getApp {
   -webkit-border-radius: 5em;
