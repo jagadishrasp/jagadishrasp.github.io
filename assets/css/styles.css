@@ -560,7 +560,7 @@ section::after {
 }
 .btn.btn-default {
   border: none;
-  background: #ffffff;
+  background: green;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
   /* FF3.6+ */
