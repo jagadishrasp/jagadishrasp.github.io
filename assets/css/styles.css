@@ -675,8 +675,8 @@ form textarea.form-control {
     margin-top: 11px;
     margin-right: 20px;
     background: none;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    border: 2px solid #212f3c;
+    color: #212f3c;
     -webkit-border-radius: 5em;
     -moz-border-radius: 5em;
     -ms-border-radius: 5em;
@@ -820,7 +820,7 @@ header .navbar-default.scrolled {
   border-bottom: 0px solid #336799;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #fadf23;
+  color: #336799;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
   color: #336799;
@@ -835,15 +835,15 @@ section .section-heading .divider:after {
   background:   #6a3bdd  ;
 }
 section#about .about-item i.fa {
-  border: 2px solid #3bdd6e;
-  color: #66cdcc;
+  border: 2px solid  #3bdd6e ;
+  color:  #3bdd6e ;
 }
 section#about .about-item:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background:  #3bdd6e ;
 }
 section#about .about-item:hover h3 {
-  color: #66cdcc;
+  color:  #3bdd6e ;
 }
 section#features {
   background: #f6f6f6;
@@ -852,22 +852,22 @@ section#features header h1:after {
   background: #66cdcc;
 }
 section#features .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid  #3bdd6e ;
+  color:  #3bdd6e ;
 }
 section#features .media:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background:  #3bdd6e ;
 }
 section#features .media:hover h3 {
-  color: #66cdcc;
+  color:  #3bdd6e ;
 }
 section#features .media.active i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background:  #3bdd6e ;
 }
 section#features .media.active .media-heading {
-  color: #66cdcc;
+  color:  #666666;
 }
 section#reviews {
   background: url("../img/freeze/bk-freeze.png");
@@ -995,7 +995,7 @@ footer .social a:hover {
   background: #ffffff;
 }
 footer .social a:hover i {
-  color: #66cdcc;
+  color:   #1875cb  ;
 }
 footer .rights {
   color: #ffffff;
@@ -1010,13 +1010,13 @@ footer .rights a {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .btn.btn-primary {
-  color: #66cdcc;
-  border-color: #66cdcc;
+  color: #3bdd6e;
+  border-color: #3bdd6e;
 }
 .btn.btn-primary:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background:  #3bdd6e ;
+  border-color:  #3bdd6e ;
 }
 .btn.btn-primary.inverse {
   color: #ffffff;
@@ -1024,8 +1024,8 @@ footer .rights a {
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background:   #1875cb  ;
+  border-color:   #1875cb  ;
 }
 .btn.btn-default {
   background: #3bdd6e;
