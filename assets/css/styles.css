@@ -835,7 +835,7 @@ section .section-heading .divider:after {
   background:   #6a3bdd  ;
 }
 section#about .about-item i.fa {
-  border: 2px solid #66cdcc;
+  border: 2px solid #3bdd6e;
   color: #66cdcc;
 }
 section#about .about-item:hover i.fa {
