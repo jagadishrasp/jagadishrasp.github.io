@@ -121,9 +121,9 @@ header .navbar-default .navbar-brand {
 }
 header .navbar-default.scrolled {
   background: rgba(255, 255, 255, 0.8);
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   padding: 0;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -155,13 +155,13 @@ header .navbar-default.scrolled ul.navbar-nav {
   left: 130px;
 }
 .section-heading {
-  margin: 60px 0 80px;
+  margin: 0px;
   text-align: center;
 }
 .section-heading h1 {
   display: inline-block;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 400;
   margin-bottom: 0;
 }
 .section-heading p {
@@ -767,7 +767,7 @@ header .navbar-default ul.navbar-nav li a {
 }
 header .navbar-default ul.navbar-nav li a.getApp {
   color: #3c79b4;
-  background: #ffffff;
+  background: #008000;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
   /* FF3.6+ */
@@ -817,10 +817,10 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #336799;
+  border-bottom: 0px solid #336799;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #336799;
+  color: #fadf23;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
   color: #336799;
@@ -832,7 +832,7 @@ header .navbar-default.scrolled .navbar-brand {
   background: #336799;
 }
 section .section-heading .divider:after {
-  background: #66cdcc;
+  background:   #6a3bdd  ;
 }
 section#about .about-item i.fa {
   border: 2px solid #66cdcc;
@@ -1028,7 +1028,7 @@ footer .rights a {
   border-color: #66cdcc;
 }
 .btn.btn-default {
-  background: #ffffff;
+  background: #3bdd6e;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
   /* FF3.6+ */
@@ -1075,7 +1075,7 @@ form .form-control:focus {
     background: #336799;
   }
   header .navbar-default.scrolled {
-    background: #336799;
+    background: none;
   }
   header .navbar-default.scrolled ul.navbar-nav li a {
     color: #ffffff;
