@@ -1124,7 +1124,7 @@ form .form-control:focus {
 	width: 100% !important;
 }
 .carousel--mobileview .carousel-bg {
-	background: url(../img/freeze/how-it-works/empty.png) no-repeat center/cover;
+	background: url(../img/freeze/how-it-works/iphone1.png) no-repeat center/cover;
 	position: absolute; 
 	left: 50%;
 	z-index: 9;
