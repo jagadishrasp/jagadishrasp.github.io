@@ -131,6 +131,7 @@ header .navbar-default.scrolled {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+
 header .navbar-default.scrolled .navbar-brand {
   padding: 15px 20px;
 }
@@ -151,7 +152,7 @@ header .navbar-default.scrolled ul.navbar-nav {
   position: absolute;
   right: 0;
   z-index: 0;
-  bottom: -185px;
+  bottom: -265px;
   left: 130px;
 }
 .section-heading {
@@ -676,8 +677,8 @@ form textarea.form-control {
     margin-top: 11px;
     margin-right: 20px;
     background: none;
-    border: 2px solid #212f3c;
-    color: #212f3c;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     -webkit-border-radius: 5em;
     -moz-border-radius: 5em;
     -ms-border-radius: 5em;
@@ -926,7 +927,8 @@ section#demo header h1:after {
 }
 /* Get app Section */
 section#getApp {
-  background: url("../img/transparent.png");
+  background: rgba(0, 0, 0, 0) url("../img/transparent.png");
+  background-size: cover;
 }
 section#getApp header {
   color: #ffffff;
@@ -971,7 +973,8 @@ section#support .media:hover h3 {
 }
 /* footer section */
 footer {
-	background: url("../img/transparent.png");	
+  background: rgba(0, 0, 0, 0) url("../img/transparent.png");
+  background-size: cover;
 }
 footer .social a {
   border: 2px solid #ffffff;
@@ -999,7 +1002,7 @@ footer .rights a {
 }
 .btn.btn-primary {
   color: #66cdcc;
-  border-color: #66cdcc;
+  border-color: #3bdd6e;
 }
 .btn.btn-primary:hover {
   color: #ffffff;
@@ -1287,6 +1290,13 @@ form .form-control:focus {
 	}
 	.carousel--desktop .carousel-description h4 {font-weight:700; margin-top: 5px;color: #00BA51}
 }
+
+@media screen and (min-width: 767px){
+#support-margin{
+	margin:auto 185px;
+}
+}
+
 
 
 
